@@ -23,7 +23,7 @@
   
   .nav ul {
     display: flex;
-    gap: 6px;
+    gap: 10px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -51,8 +51,6 @@
   .nav ul li a:hover {
     background-size: 100% 2px; /* Expande no hover */
   }
-  
-  
   
   .nav ul li a:active {
     transform: scale(0.95);
@@ -118,7 +116,7 @@
     overflow: hidden;
     z-index: 11;
     border-radius: 0px 0px 4px 4px;
-    margin-top: 26px;
+    margin-top: 22px;
   }
 
   .drop-hover .drop a{
@@ -146,7 +144,7 @@
     overflow: hidden;
     z-index: 11;
     border-radius: 0px 0px 4px 4px;
-    margin-top: 26px;
+    margin-top: 22px;
   }
 
   .drop-hover .drop1 a{
@@ -169,7 +167,7 @@
     overflow: hidden;
     z-index: 11;
     border-radius: 0px 0px 4px 4px;
-    margin-top: 26px;
+    margin-top: 22px;
   }
 
   .drop-hover .drop2 a{
@@ -192,7 +190,7 @@
     overflow: hidden;
     z-index: 11;
     border-radius: 0px 0px 4px 4px;
-    margin-top: 26px;
+    margin-top: 22px;
   }
 
   .drop-hover .drop3 a{
@@ -202,6 +200,52 @@
 
   .drop-hover:hover .drop3{
     height: 300px;
+  }
+
+  /* Dropdown Calçados */
+  .drop-hover .drop4 {
+    position: absolute;
+    background-color: #facb53;
+    width: 100%;
+    width: 120px;
+    height: 0;
+    transition: .5s;
+    overflow: hidden;
+    z-index: 11;
+    border-radius: 0px 0px 4px 4px;
+    margin-top: 22px;
+  }
+
+  .drop-hover .drop4 a{
+    padding: 10px;
+    color: #252525;
+  }
+
+  .drop-hover:hover .drop4{
+    height: 390px;
+  }
+
+  /* Dropdown Esportivo */
+  .drop-hover .drop5 {
+    position: absolute;
+    background-color: #facb53;
+    width: 100%;
+    width: 200px;
+    height: 0;
+    transition: .5s;
+    overflow: hidden;
+    z-index: 11;
+    border-radius: 0px 0px 4px 4px;
+    margin-top: 22px;
+  }
+
+  .drop-hover .drop5 a{
+    padding: 10px;
+    color: #252525;
+  }
+
+  .drop-hover:hover .drop5{
+    height: 450px;
   }
 
   .icon1 {
