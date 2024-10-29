@@ -1,7 +1,7 @@
 /* Posicionamento da logo */
 .logo {
     position: absolute;
-    top: 20px;
+    top: 30px;
     left: 20px;
     z-index: 10;
   }
@@ -23,7 +23,7 @@
   
   .nav ul {
     display: flex;
-    gap: 16px;
+    gap: 6px;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -101,4 +101,109 @@
     margin-left: 5px;
     margin-top: 0.01px;
     margin-right: 5px;
+  }
+
+  /* Dropdown Verão */
+  .drop-hover {
+    position: relative;
+  }
+
+  .drop-hover .drop {
+    position: absolute;
+    background-color: #facb53;
+    width: 100%;
+    width: 190px;
+    height: 0;
+    transition: .5s;
+    overflow: hidden;
+    z-index: 11;
+    border-radius: 0px 0px 4px 4px;
+    margin-top: 26px;
+  }
+
+  .drop-hover .drop a{
+    padding: 15px;
+    color: #252525;
+  }
+
+  .drop-hover:hover .drop{
+    height: 350px;
+  }
+
+  .drop-hover {
+    position: relative;
+  }
+
+
+    /* Dropdown Novidades */
+  .drop-hover .drop1 {
+    position: absolute;
+    background-color: #facb53;
+    width: 100%;
+    width: 210px;
+    height: 0;
+    transition: .5s;
+    overflow: hidden;
+    z-index: 11;
+    border-radius: 0px 0px 4px 4px;
+    margin-top: 26px;
+  }
+
+  .drop-hover .drop1 a{
+    padding: 15px;
+    color: #252525;
+  }
+
+  .drop-hover:hover .drop1{
+    height: 340px;
+  }
+
+  /* Dropdown Infantil */
+  .drop-hover .drop2 {
+    position: absolute;
+    background-color: #facb53;
+    width: 100%;
+    width: 190px;
+    height: 0;
+    transition: .5s;
+    overflow: hidden;
+    z-index: 11;
+    border-radius: 0px 0px 4px 4px;
+    margin-top: 26px;
+  }
+
+  .drop-hover .drop2 a{
+    padding: 15px;
+    color: #252525;
+  }
+
+  .drop-hover:hover .drop2{
+    height: 300px;
+  }
+
+  /* Dropdown Unisex */
+  .drop-hover .drop3 {
+    position: absolute;
+    background-color: #facb53;
+    width: 100%;
+    width: 190px;
+    height: 0;
+    transition: .5s;
+    overflow: hidden;
+    z-index: 11;
+    border-radius: 0px 0px 4px 4px;
+    margin-top: 26px;
+  }
+
+  .drop-hover .drop3 a{
+    padding: 15px;
+    color: #252525;
+  }
+
+  .drop-hover:hover .drop3{
+    height: 300px;
+  }
+
+  .icon1 {
+    margin-left : 5px;
   }
